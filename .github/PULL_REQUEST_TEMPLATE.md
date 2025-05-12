@@ -18,7 +18,7 @@ Please complete the following information:
 
 ## Checklist before submitting:
 
-- [ ] I created or updated my folder under `projects/MY_USERNAME/`
+- [ ] I created or updated my folder under `projects/my_project-id/`
 - [ ] I only added or modified files inside my folder
 - [ ] I did not modify files belonging to other students or instructors
 - [ ] My code runs without errors
