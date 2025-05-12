@@ -2,7 +2,7 @@
 
 ## Welcome to the repository for the end of semester SoSe2025 projects for the Probabilistic Machine Learning Lecture by Dr. Alvaro Diaz-Ruelas.
 
-## IMPORTANT: How to make your project-ID if you do not have one already?
+## IMPORTANT: **How to make your project-ID if you do not have one already?**
 Ideally, first send me a project proposal in an email (preferably containing and/or describing the dataset(s)). If I approve the project, I will create the ID for you.
 Otherwise:
 
@@ -19,7 +19,7 @@ If, instead of being alone I make the project with a colleague, say, Geoffrey Hi
 
     12-7DAHGXX.
 
-How to name the folder of my project? We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
+**How to name the folder of my project?** We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
 Now we can proceed to create a folder under the projects/ folder.
     
 
