@@ -3,7 +3,7 @@
 Please complete the following information:
 
 **Lecturer:** [Lecturer Name]  
-**Student Name(s) or Team Name:**  
+**Student(s) Name(s) or Team Name:**  
 **GitHub Username(s):**  
 **PROJECT-ID:** [Assigned Project ID]  
 
