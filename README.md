@@ -36,11 +36,11 @@ This course repository is for educational use only. All rights reserved.
     ├── CONTRIBUTING.md
     ├── LICENSE
     ├── projects/
-    │   ├── student1/
+    │   ├── project-id-1/
     │   │   ├── notebooks/
     │   │   ├── data/
     │   │   └── results/
-    │   ├── student2/
+    │   ├── project-id-2/
     │   │   ├── notebooks/
     │   │   ├── data/
     │   │   └── results/
