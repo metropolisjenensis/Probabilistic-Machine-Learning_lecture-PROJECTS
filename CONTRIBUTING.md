@@ -24,7 +24,7 @@ mkdir projects/YOUR_USERNAME
 
 ```bash
 git add .
-git commit -m "Add project progress"
+git commit -m "meaningful message to help keeping track of the modifications/additions"
 git push origin main
 ```
 
