@@ -1,4 +1,4 @@
-```markdown
+
 # Contributing Guidelines
 
 Thank you for participating in this course!
@@ -50,4 +50,3 @@ projects/YOUR_USERNAME/
 ## Important
 
 All pull requests will be reviewed before being merged. Violations of the guidelines may cause delays in acceptance.
-```
