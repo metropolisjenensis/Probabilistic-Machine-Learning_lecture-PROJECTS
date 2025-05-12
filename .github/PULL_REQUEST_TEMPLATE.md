@@ -2,7 +2,7 @@
 
 Please complete the following information:
 
-**Lecturer:** [Lecturer Name]  
+**Lecturer:** Dr. Alvaro Diaz-Ruelas
 **Student(s) Name(s) or Team Name:**  
 **GitHub Username(s):**  
 **PROJECT-ID:** [Assigned Project ID]  
