@@ -29,6 +29,7 @@ You are not allowed to push directly to this repository.
 This course repository is for educational use only. All rights reserved.
 
 
+# Repository Structure
 
     Probabilistic-Machine-Learning_lecture-PROJECTS/
     ├── README.md
