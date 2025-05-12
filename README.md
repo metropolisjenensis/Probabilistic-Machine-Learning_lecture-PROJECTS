@@ -30,21 +30,21 @@ This course repository is for educational use only. All rights reserved.
 
 
 
-Probabilistic-Machine-Learning_lecture-PROJECTS/
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── projects/
-│   ├── student1/
-│   │   ├── notebooks/
-│   │   ├── data/
-│   │   └── results/
-│   ├── student2/
-│   │   ├── notebooks/
-│   │   ├── data/
-│   │   └── results/
-│   └── ...
-├── templates/
-│   └── project_report_template.ipynb
-└── .github/
-    └── PULL_REQUEST_TEMPLATE.md
+    Probabilistic-Machine-Learning_lecture-PROJECTS/
+    ├── README.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── projects/
+    │   ├── student1/
+    │   │   ├── notebooks/
+    │   │   ├── data/
+    │   │   └── results/
+    │   ├── student2/
+    │   │   ├── notebooks/
+    │   │   ├── data/
+    │   │   └── results/
+    │   └── ...
+    ├── templates/
+    │   └── project_report_template.ipynb
+    └── .github/
+        └── PULL_REQUEST_TEMPLATE.md
