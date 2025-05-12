@@ -12,7 +12,7 @@ Thank you for participating in this course!
 git clone https://github.com/YOUR_USERNAME/Probabilistic-Machine-Learning_lecture-PROJECTS.git
 ```
 
-3. Navigate to `projects/` and create your folder:
+3. Navigate to `projects/` and create your folder (if it does not exist already):
 
 ```bash
 mkdir projects/your_project-id
