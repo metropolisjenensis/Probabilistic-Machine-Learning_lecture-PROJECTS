@@ -12,7 +12,7 @@ Otherwise:
     4. Then the initials (starting by surname, then first name) for each member of the group, up to 3 members, and XX for each empty member.
 
 For instance, if I, Alvaro Diaz-Ruelas chooses his project on the 12th of Mai, and I notice that there are already 6 other projects chosen on that day before me, my ID is: 12-7DAXXXX
-If, instead of being alone I make the project with a colleague, say, Geoffrey Hinto, then the ID of our project is: 12-7DAHGXX.
+If, instead of being alone I make the project with a colleague, say, Geoffrey Hinton, then the ID of our project is: 12-7DAHGXX.
 
 How to name the folder of my project? We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
 Now we can proceed to create a folder under the projects/ folder.
