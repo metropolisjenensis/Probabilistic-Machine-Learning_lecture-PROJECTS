@@ -40,7 +40,7 @@ git push origin main
 ## File Structure Example
 
 ```
-projects/YOUR_USERNAME/
+projects/your_project_id/
 ├── notebooks/
 ├── data/
 ├── results/
