@@ -22,7 +22,7 @@ You are not allowed to push directly to this repository.
 
 ## Rules
 - Respect the folder structure.
-- Do not modify other students' folders.
+- Do not modify other project's folders.
 - Follow the coding guidelines described in `CONTRIBUTING.md`.
 
 ## License
