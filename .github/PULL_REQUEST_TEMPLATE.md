@@ -1,5 +1,5 @@
 ## Pull Request Template
----
+
 Please complete the following information:
 
 **Lecturer:** Dr. Alvaro Diaz-Ruelas
@@ -7,13 +7,13 @@ Please complete the following information:
 **GitHub Username(s):**  
 **PROJECT-ID:** [Assigned Project ID]  
 
----
+
 
 ## Description of Changes:
 
 (Briefly describe what you have done in this pull request.)
 
----
+
 
 ## Checklist before submitting:
 
@@ -24,9 +24,8 @@ Please complete the following information:
 - [ ] My notebook is properly structured and follows the project template
 - [ ] I have pushed all required files (notebooks, data if allowed, results)
 
----
 
 ## Additional Notes (optional):
 
-(If there is anything specific you want the instructor to know.)
+(If there is anything specific you want me, the lecturer, to know.)
 
