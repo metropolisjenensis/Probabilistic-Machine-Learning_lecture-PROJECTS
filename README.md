@@ -13,7 +13,7 @@ Otherwise:
 
 For instance, if I, Alvaro Diaz-Ruelas chooses his project on the 12th of Mai, and I notice that there are already 6 other projects chosen on that day before me, my ID is: 
 
-    12-7DAXXXX
+    12-7DAXXXX.
 
 If, instead of being alone I make the project with a colleague, say, Geoffrey Hinton, then the ID of our project is: 
 
