@@ -41,9 +41,6 @@ You are not allowed to push directly to this repository.
 - Do not modify other project's folders.
 - Follow the coding guidelines described in `CONTRIBUTING.md`.
 
-## License
-This course repository is for educational use only. All rights reserved.
-
 
 # Repository Tree Structure
 
@@ -65,3 +62,7 @@ This course repository is for educational use only. All rights reserved.
     │   └── project_report_template.ipynb
     └── .github/
         └── PULL_REQUEST_TEMPLATE.md
+
+
+## License
+This course repository is for educational use only. All rights reserved.
