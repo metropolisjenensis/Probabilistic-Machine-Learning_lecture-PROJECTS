@@ -21,6 +21,8 @@ If, instead of being alone I make the project with a colleague, say, Geoffrey Hi
 
 **How to name the folder of my project?** We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
 Now we can proceed to create a folder under the projects/ folder.
+
+If you created your own project folder (after having my feedback) then, you can upload it with the proper name, only when if it contains a file. Then just create a temp.txt file inside as a placeholder. 
     
 ## Summarized Repository Structure
 - `projects/` – Each student/team will have a folder here.
