@@ -30,7 +30,7 @@ Now we can proceed to create a folder under the projects/ folder.
 1. Fork this repository to your personal GitHub account.
 2. Clone your fork and work locally.
 3. Create a folder under `projects/` with your assigned PROJECT-ID, if it does not exist already.
-4. Commit your work regularly.
+4. Commit your work regularly **to your own fork** (let's say that regularly is every working session).
 5. When ready, create a Pull Request (PR) to this central repository.
 6. I (Alvaro) will review and merge.
 
