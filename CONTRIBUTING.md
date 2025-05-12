@@ -15,7 +15,7 @@ git clone https://github.com/YOUR_USERNAME/Probabilistic-Machine-Learning_lectur
 3. Navigate to `projects/` and create your folder:
 
 ```bash
-mkdir projects/YOUR_USERNAME
+mkdir projects/your_project-id
 ```
 
 4. Add your work under this folder.
@@ -40,7 +40,7 @@ git push origin main
 ## File Structure Example
 
 ```
-projects/your_project_id/
+projects/your_project-id/
 ├── notebooks/
 ├── data/
 ├── results/
