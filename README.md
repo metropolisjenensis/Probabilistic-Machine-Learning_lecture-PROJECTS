@@ -22,10 +22,6 @@ If, instead of being alone I make the project with a colleague, say, Geoffrey Hi
 **How to name the folder of my project?** We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
 Now we can proceed to create a folder under the projects/ folder.
     
-
-## Course Objective
-You will learn advanced methods of probabilistic data analysis using real-world datasets, focusing on applying machine learning techniques.
-
 ## Repository Structure
 - `projects/` – Each student/team will have a folder here.
 - `templates/` – Example notebooks or report templates.
