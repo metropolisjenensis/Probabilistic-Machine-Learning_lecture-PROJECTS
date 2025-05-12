@@ -22,7 +22,7 @@ If, instead of being alone I make the project with a colleague, say, Geoffrey Hi
 **How to name the folder of my project?** We append to the project-ID a short string without spaces as descriptive as possible: 12-7DAHGXX_double_descent
 Now we can proceed to create a folder under the projects/ folder.
     
-## Repository Structure
+## Summarized Repository Structure
 - `projects/` – Each student/team will have a folder here.
 - `templates/` – Example notebooks or report templates.
 
@@ -45,7 +45,7 @@ You are not allowed to push directly to this repository.
 This course repository is for educational use only. All rights reserved.
 
 
-# Repository Structure
+# Repository Tree Structure
 
     Probabilistic-Machine-Learning_lecture-PROJECTS/
     ├── README.md
