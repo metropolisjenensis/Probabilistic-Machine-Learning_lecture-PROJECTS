@@ -42,8 +42,10 @@ git push origin main
 ```
 projects/your_project-id/
 ├── notebooks/
+├── scripts/
 ├── data/
 ├── results/
+├── misc/
 ├── README.md
 ```
 
