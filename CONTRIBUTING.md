@@ -9,7 +9,7 @@ Thank you for participating in this course!
 2. Clone your fork to your local machine:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Probabilistic-Machine-Learning_PROJECTS-lecture.git
+git clone https://github.com/YOUR_USERNAME/Probabilistic-Machine-Learning_lecture-PROJECTS.git
 ```
 
 3. Navigate to `projects/` and create your folder:
