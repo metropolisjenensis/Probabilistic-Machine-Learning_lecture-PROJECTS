@@ -16,7 +16,7 @@ You will learn advanced methods of probabilistic data analysis using real-world 
 3. Create a folder under `projects/` with your GitHub username (or assigned team name).
 4. Commit your work regularly.
 5. When ready, create a Pull Request (PR) to this central repository.
-6. We (instructors) will review and merge.
+6. I (Alvaro) will review and merge.
 
 You are not allowed to push directly to this repository.
 
