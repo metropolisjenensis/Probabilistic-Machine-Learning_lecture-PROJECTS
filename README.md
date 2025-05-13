@@ -1,6 +1,6 @@
 # Probabilistic-Machine-Learning_lecture-PROJECTS
 
-## Welcome to the repository for the end of semester SoSe2025 projects for the Probabilistic Machine Learning Lecture by Dr. Alvaro Diaz-Ruelas.
+## Welcome to the repository for the end of semester SoSe2025 projects for the Probabilistic Machine Learning [Lecture](https://github.com/IvaroEkel/Probabilistic-Machine-Learning_Lecture/) by Dr. Alvaro Diaz-Ruelas.
 
 ## IMPORTANT: **How to make your project-ID if you do not have one already?**
 Ideally, first send me a project proposal in an email (preferably containing and/or describing the dataset(s)). If I approve the project, I will create the ID for you.
