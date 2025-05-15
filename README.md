@@ -2,7 +2,12 @@
 
 ## Welcome to the repository for the end of semester SoSe2025 projects for the Probabilistic Machine Learning [Lecture](https://github.com/IvaroEkel/Probabilistic-Machine-Learning_Lecture/) by Dr. Alvaro Diaz-Ruelas.
 
-## IMPORTANT: **How to make your project-ID if you do not have one already?**
+## IMPORTANT: 
+    Please upload the file(s) with the data you want to analyze to your project folder. But only if the size of the file does not exceed a few MB (~3MB or so). Otherwise, please upload it to google drive or other cloud service. 
+    You need to start writing the very first parts of your project, that might need hours of work, such as the data thorough description, cleaning if necessary, and description of your main hypotheses. 
+
+
+## **How to make your project-ID if you do not have one already?**
 Ideally, first send me a project proposal in an email (preferably containing (full or sample) and/or describing the dataset(s)). If I approve the project, I will create the ID for you.
 Otherwise:
 
