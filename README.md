@@ -6,7 +6,9 @@
 
     - Statistisches Bundesamt: [link](https://www.destatis.de/DE/Home/_inhalt.html)
     - 10xgenomics: [lnik](https://www.10xgenomics.com/datasets?configure%5BhitsPerPage%5D=50&configure%5BmaxValuesPerFacet%5D=1000)
-    - yahoo finance
+    - Yahoo Finance
+    - Detailed weather datasets: https://guides.lib.berkeley.edu/climate/data
+    
 
 
 ## IMPORTANT: 
