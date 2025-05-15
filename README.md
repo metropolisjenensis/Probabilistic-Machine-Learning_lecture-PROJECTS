@@ -2,6 +2,13 @@
 
 ## Welcome to the repository for the end of semester SoSe2025 projects for the Probabilistic Machine Learning [Lecture](https://github.com/IvaroEkel/Probabilistic-Machine-Learning_Lecture/) by Dr. Alvaro Diaz-Ruelas.
 
+## Some freely available and interesting datasets/sources:
+
+    - Statistisches Bundesamt: [link](https://www.destatis.de/DE/Home/_inhalt.html)
+    - 10xgenomics: [lnik](https://www.10xgenomics.com/datasets?configure%5BhitsPerPage%5D=50&configure%5BmaxValuesPerFacet%5D=1000)
+    - yahoo finance
+
+
 ## IMPORTANT: 
     Please upload the file(s) with the data you want to analyze to your project folder. But only if the size of the file does not exceed a few MB (~3MB or so). Otherwise, please upload it to google drive or other cloud service. 
     You need to start writing the very first parts of your project, that might need hours of work, such as the data thorough description, cleaning if necessary, and description of your main hypotheses. 
