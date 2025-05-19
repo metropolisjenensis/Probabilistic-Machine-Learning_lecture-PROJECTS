@@ -3,7 +3,7 @@ import re
 from nltk.tokenize import sent_tokenize, word_tokenize
 
 # Download necessary NLTK resources
-#nltk.download('')
+#nltk.download('punkt_tab')
 
 def normalize_text(text):
     """Basic text normalization"""
@@ -36,11 +36,7 @@ def load_story(file_path):
 # Example usage
 if __name__ == "__main__":
     # Load sample text
-    sample_text = """Once upon a time in a far away land.
-    
-    There lived a princess. She was very brave.
-    
-    One day, she decided to explore the dark forest nearby."""
+    sample_text = load_story("./story_fulltext.txt")
 
     # Normalize
     normalized = normalize_text(sample_text)
