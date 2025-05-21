@@ -13,7 +13,7 @@
 
 ## IMPORTANT: 
 
-- Every time you work on your project locally, start with a pull request: git pull, so you do not have conflicts.
+- Every time you work on your project locally, start with a pull request: 'git pull', so you do not have conflicts.
 
 - Please include an updated requirements.txt file so I can easily reproduce your environment. 
 
