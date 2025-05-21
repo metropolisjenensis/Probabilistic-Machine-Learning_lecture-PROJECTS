@@ -12,7 +12,7 @@
 
 
 ## IMPORTANT: 
-- If your projects involves scripts and a virtual environment, then please include an updated requirements.txt file
+- If your project involves scripts and a virtual environment, then please include an updated requirements.txt file
 
 - Please upload the file(s) with the data you want to analyze to your project folder. But only if the size of the file does not exceed a few MB (~3MB or so). Otherwise, please upload it to google drive or other cloud service. 
     You need to start writing the very first parts of your project, that might need hours of work, such as the data thorough description, cleaning if necessary, and description of your main hypotheses. 
