@@ -1,0 +1,117 @@
+---
+title: "Electricity Price Forecasting"
+author: "Niclas"
+format: html
+editor: visual
+---
+
+# Data Exploration and Cleaning
+
+```{r}
+library(tidyverse)
+source("preparation.R")
+setwd("/home/niclas/uni_leipzig/07_Veranstaltungen_SoSe25/ProbML/15-1RNXXXX_electricity_prices/")
+```
+
+```{r}
+# TODO fix warnings
+ep <- load_electricity_prices()
+ep <- prepare_data(ep)
+```
+**TODO**
+Insert description of the Data (what is the meaning of the columns, where, when,
+source of the data, coverage, period, possible negative values)
+```{r}
+# describe data
+str(ep)
+
+summary(ep)
+```
+
+The dataset is complete, since we have `{r} nrow(ep)` rows. This equals to 
+$2404~\mathrm{days} * 24 \frac{\mathrm{hours}}{\mathrm {day}} - 7~\mathrm{hours}=$ 
+`{r} as.integer(max(ep$Date_to) - min(ep$Date_from) ) * 24 - 7` hours. 
+We need to subtract 7 hours, due to the switch from summer time to winter time
+in march. 
+
+There are no missing data for our time series. 
+
+We focus now in Germany / Luxembourg
+
+
+```{r}
+library(feasts) # needed later
+```
+
+```{r}
+ep %>%
+  ggplot(aes(Date_from, DELU)) + 
+  geom_line(color="blue") +
+  scale_x_datetime(breaks="1 year") +
+  ylab("€ / MWh") +
+  xlab("Date") +
+  labs(title="Electricity prices in Germany and Luxembourg at full period") +
+  theme_bw()
+```
+**Take aways**
+- Variance is not constant
+- Jumps can occur in our data
+```{r}
+start_date <- as_datetime(ymd("2019-01-01"))
+end_date <- as_datetime(ymd("2019-02-01"))
+ep %>%
+  filter(Date_from >= start_date, Date_from <= end_date) %>%
+  ggplot(aes(Date_from, DELU)) + 
+  geom_line(color="blue") +
+  scale_x_datetime(breaks="1 week") +
+  ylab("€ / MWh") +
+  xlab("Date") +
+  labs(title="Electricity prices in Germany and Luxembourg for January 2019") +
+  theme_bw()
+```
+
+```{r}
+start_date <- as_datetime(ymd("2019-03-01"))
+end_date <- as_datetime(ymd("2019-03-14"))
+ep %>%
+  filter(Date_from >= start_date, Date_from <= end_date) %>%
+  ggplot(aes(Date_from, DELU)) + 
+  geom_line(color="blue") +
+  scale_x_datetime(breaks="1 day", date_labels = "%a") +
+  ylab("€ / MWh") +
+  xlab("Date") +
+  labs(title="Electricity prices in Germany and Luxembourg for 1st - 14th March 2019") +
+  theme_bw()
+```
+```{r}
+start_date <- as_datetime(ymd("2019-03-01"))
+end_date <- as_datetime(ymd("2019-03-14"))
+ep %>%
+  filter(Date_from >= start_date, Date_from < end_date) %>%
+  mutate(hour = hour(Date_from),
+         date = as_date(Date_from)) %>%
+  ggplot(aes(hour, DELU, group=date, color=as.factor(date))) + 
+  geom_line() +
+  theme_bw() +
+ # facet_wrap(~ date) +
+  ylab("€ / MWh") +
+  xlab("Date") +
+  labs(title="Electricity prices in DE / LUX for 1st - 14th March 2019 by hour of the day")
+```
+```{r}
+# load library for moving average
+library(slider)
+
+ep %>%
+  mutate(ma_week = slide_dbl(DELU, mean, .before = 83, .after = 83, .complete = TRUE)) %>%
+   ggplot(aes(Date_from, DELU)) + 
+  geom_line(color="lightblue") +
+  geom_line(aes(y=ma_week), color="red") +
+  scale_x_datetime(breaks="1 year") +
+  ylab("€ / MWh") +
+  xlab("Date") +
+  labs(title="Electricity prices in Germany and Luxembourg with weekly Moving Average") +
+  theme_bw()
+```
+
+
