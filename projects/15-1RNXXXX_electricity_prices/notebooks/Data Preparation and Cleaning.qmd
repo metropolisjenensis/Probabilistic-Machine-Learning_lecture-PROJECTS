@@ -113,5 +113,27 @@ ep %>%
   labs(title="Electricity prices in Germany and Luxembourg with weekly Moving Average") +
   theme_bw()
 ```
+```{r}
+source("fft_util.R")
+source("auto_correlation_util.R")
+```
+```{r}
+ep_fft <- compute_fft(ep, Date_from, DELU)
+ep_fft %>% ggplot(aes(freq, amplitude)) +
+  geom_line(color = "steelblue") +
+    labs(
+      x     = "Frequency",
+      y     = "Amplitude",
+      title = "One‐Sided FFT (Amplitude Spectrum)"
+    ) +
+    theme_minimal()
+```
 
+```{r}
+ep_acf <- compute_autocorrelation(ep, DELU, lag.max=18000)
+ggplot(ep_acf, aes(x = lag, y = acf)) +
+  geom_bar(stat = "identity", width = 0.2) +
+  labs(title = "Autocorrelation of series_1", x = "Lag", y = "ACF") +
+  theme_minimal()
+```
 
