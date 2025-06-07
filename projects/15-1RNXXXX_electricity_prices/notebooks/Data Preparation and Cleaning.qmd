@@ -211,3 +211,40 @@ variables in our regression model.
 The Fourier spectrum of our time series shows that low frequencies are dominating,
 however some frequencies protude, which can be possible used for a variable
 selection.
+
+```{r}
+#| code-fold: true
+#| code-line-numbers: true
+#| code-summary: "Seasonal decomposition"
+library(feasts)
+
+
+ep_ts <-  ep %>%
+  select(Date_from, DELU) %>%
+  as_tsibble()%>%
+  fill_gaps() %>%
+  tidyr::fill(DELU, .direction = "down")
+
+ep_stl <- ep_ts %>%
+  model(STL(DELU))
+
+
+
+ep_stl %>%
+  components() %>%
+  select(-c(".model", "season_adjust")) %>%
+  tidyr::pivot_longer(-Date_from, names_to = "component") %>%
+  ggplot(aes(Date_from, value, color = component)) +
+    geom_line(show.legend = FALSE, ) +
+    theme_bw() +
+    theme(aspect.ratio = 0.1) +
+    facet_wrap("component", scales="free", ncol = 1, strip.position = "left") +
+    xlab("Date") +
+    scale_x_datetime(breaks="3 month", date_labels = "%m/%y") +
+    ylab("€ / MWh") +
+    labs(title="STL decomposition of electricitpy prices in Germany and Luxembourg",
+         subtitle = "DELU = trend + season_year + season_week + season_day + remainder")
+
+  
+```
+
