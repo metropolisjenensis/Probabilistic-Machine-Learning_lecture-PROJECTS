@@ -1,0 +1,9 @@
+https://fbref.com/en/comps/676/stats/UEFA-Euro-Stats
+Bzw 
+https://www.kaggle.com/datasets/mexwell/uefa-euro-2024-database?resource=download&select=player_shooting.csv
+
+Und mein Thema:
+Clustering von Spielern nach Spielstil (z. B. "Progressive Passers" vs. "Ball Winners")
+Frage: Welche Spielertypen gibt es, unabhängig von Position?
+Datenbasis:
+Features wie: progressive passes, touches, pressures, tackles, interceptions, blocks
