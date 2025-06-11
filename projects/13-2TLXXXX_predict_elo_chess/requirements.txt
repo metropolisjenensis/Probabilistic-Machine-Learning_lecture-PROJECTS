@@ -1,0 +1,8 @@
+datasets
+pandas
+matplotlib
+numpy
+chess
+scikit-learn
+optuna
+seaborn

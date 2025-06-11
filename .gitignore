@@ -137,6 +137,7 @@ env.bak/
 venv.bak/
 venv*/
 
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -173,3 +174,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Mac OS files
+.DS_Store
+# Windows files
+Thumbs.db
+# Linux files
+# *~
+# Visual Studio Code
+# .vscode/
+# Visual Studio Code workspace storage
+# .vscode-test/
+# Visual Studio Code settings
+# .vscode/settings.json
