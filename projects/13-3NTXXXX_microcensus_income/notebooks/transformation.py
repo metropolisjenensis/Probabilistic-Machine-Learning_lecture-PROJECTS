@@ -24,7 +24,6 @@ for column in df_labels.columns:
     if column in mappings:
         df_labels[column] = df_labels[column].map(mappings[column])
 
-print(df_labels.head())
 
 
 #saving df with and without numerical feature values.
