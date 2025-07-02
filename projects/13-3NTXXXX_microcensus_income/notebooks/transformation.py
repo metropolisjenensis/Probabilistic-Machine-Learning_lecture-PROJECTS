@@ -5,6 +5,7 @@ df_raw = data_load("data/mz2010_cf.csv")
 #renaming all columns
 df_selection = select_rename("data/mappings.json",df_raw)
 df_selection = normalize_missing_values(df_selection)
+
 # applying label mappings for certain columns
 df_labels = apply_label_mappings_string(df_selection, "data/mappings.json")
 #normalize zero values to NaN and drop them
